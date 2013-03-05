@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "id": 1, "username": {"First name": "David", "Last name": "Walsh"}, "numPosts": "404", "realName": {"First name": "David", "Last name": "Walsh"}},
+    { "id": 2, "username": {"First name": "Russian", "Last name": "Prince"}, "numPosts": "12", "realName": {"First name": "David", "Last name": "Walsh"}},
+    { "id": 1, "username": {"First name": "David", "Last name": "Walsh"}, "numPosts": "404"} 
+  ]
+}

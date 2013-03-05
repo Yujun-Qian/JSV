@@ -1,0 +1,17 @@
+{
+  "type" : "object",
+  "properties" : {
+    "users" : {
+      "type" : "array",
+      "items" : { 
+        "type" : "object",
+        "properties" : {
+          "id": { "type": "number" },
+          "username": { "$ref" : "name" },
+          "numPosts": { "type" : "string" },
+          "realName": { "$ref" : "realname", "optional": true }
+        }
+      }
+    }
+  }
+}

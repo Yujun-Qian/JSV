@@ -1,0 +1,13 @@
+{
+  "id": "name",
+  "type" : "object",
+  "properties" : {
+    "First name" : {
+      "type" : "string"
+    },
+  "Last name": {
+      "type" : "string"
+    }
+  }
+}
+
