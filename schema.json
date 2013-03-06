@@ -8,7 +8,7 @@
         "properties" : {
           "id": { "type": "number" },
           "username": { "$ref" : "name" },
-          "numPosts": { "type" : "string" },
+          "numPosts": { "type" : "string", "pattern" : "^[a-z]$"},
           "realName": { "$ref" : "realname", "optional": true }
         }
       }
